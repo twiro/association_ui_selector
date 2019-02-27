@@ -13,10 +13,6 @@
 			<name github="hananils" symphony="hananils">Büro für Web- und Textgestaltung</name>
 			<website>http://hananils.de</website>
 		</author>
-		<author>
-			<name github="hananils" symphony="hananils">Büro für Web- und Textgestaltung</name>
-			<website>http://hananils.de</website>
-		</author>
 	</authors>
 	<releases>
 		<release version="1.3.0" date="2019-02-27" min="2.5">
