@@ -212,66 +212,6 @@
 	cursor: pointer;
 }
 
-/* Index table */
-
-table .multi[data-interface^="aui-selector"] {
-	position: relative;
-	margin: -0.8rem 0 0 -0.8rem;
-	padding-bottom: 2.4rem;
-}
-
-table tr .multi[data-interface^="aui-selector"]::after {
-	content: '↓ ' attr(data-count) ' ' attr(data-label-plural);
-	position: absolute;
-	left: 0;
-	bottom: -0.8rem;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 0.8rem 0.8rem 0.8rem;
-	pointer-events: none;
-	border-top: 0.1rem solid #e6e6e5;
-}
-
-table tr .multi[data-interface^="aui-selector"][data-count="1"]::after {
-	content: '↓ '  attr(data-count) ' ' attr(data-label-singular);
-}
-
-table tr.selected .multi[data-interface^="aui-selector"]::after {
-	border-top-color: #9eb4d5;
-}
-
-table .multi[data-interface^="aui-selector"] ul {
-	overflow: auto;
-	max-height: 4.9rem;
-	margin: 0;
-}
-
-table .multi[data-interface^="aui-selector"] li {
-	display: block;
-	padding: 0.8rem;
-	border-bottom: 0.1rem solid #e6e6e5;
-}
-
-table tr.selected .multi[data-interface^="aui-selector"] li {
-	border-top-color: #9eb4d5;
-}
-
-table .multi[data-interface^="aui-selector"] li::before {
-	display: none;
-}
-
-table .multi[data-interface^="aui-selector"] li br {
-	display: block;
-}
-
-table .multi[data-interface^="aui-selector"] li a {
-	color: #000;
-	border-bottom: none;
-}
-
-table .multi[data-interface^="aui-selector"] li strong {
-	font-weight: bold;
-}
 
 /* Layouts */
 
