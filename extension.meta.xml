@@ -13,6 +13,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.2.2" date="2019-02-27" min="2.5">
+			- PHP 7.2 compatibility: make static $provides protected (#60)
+		</release>
 		<release version="1.2.1" date="2015-07-21" min="2.5">
 			- Fixed styling of index table overviews for single select fields (requires Association Field 1.0.1)
 		</release>
