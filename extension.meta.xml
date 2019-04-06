@@ -4,7 +4,7 @@
 	<description>Search and select associated entries</description>
 	<repo type="github">https://github.com/mazedigital/association_ui_selector</repo>
 	<url type="issues">https://github.com/mazedigital/association_ui_selector/issues</url>
-	<url type="discuss">https://www.getsymphony.com/discuss/thread/106489/1/</url>
+	<url type="discuss">https://www.getsymphony.com/discuss/thread/106489/</url>
 	<types>
 		<type>Associations</type>
 	</types>
@@ -15,9 +15,10 @@
 		</author>
 	</authors>
 	<releases>
-		<release version="1.3.0" date="2019-02-27" min="2.5">
+		<release version="1.3.0" date="2019-04-06" min="2.5.0" max="2.x.x" php-min="5.6.0" php-max="7.x.x">
 			- PHP 7.2 compatibility: make static $provides protected (#60)
 			- Removed index table styling (introduced in 1.2.0)
+			- Added PHP compatibility data to the release info
 			- Updated repo link and added 'issues' and 'discuss' links
 		</release>
 		<release version="1.2.1" date="2015-07-21" min="2.5">
